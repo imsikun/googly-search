@@ -26,7 +26,7 @@ useEffect(() =>{
   }
 }, [searchTerm,location.pathname])
 //the empty array means this function will only run on the starting loading of our applciation
-
+//Now here as i provide 2 params this means this function will only work if the user search for it or else change the paths
 
 if(isLoading) return <Loading />
 console.log(location.pathname);
